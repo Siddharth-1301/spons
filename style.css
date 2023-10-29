@@ -157,7 +157,7 @@ a:last-child img {
     height: 60%; 
     align-items: center;/* Adjust height */
     border-radius: 15px;
-    
+backface-visibility:hidden;    
 background: white;
 }
 .front{
