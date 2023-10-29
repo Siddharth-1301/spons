@@ -157,7 +157,6 @@ a:last-child img {
     height: 60%; 
     align-items: center;/* Adjust height */
     border-radius: 15px;
-backface-visibility:hidden;    
 background: white;
 }
 .front{
@@ -182,4 +181,10 @@ background: white;
     
 
     /* Other adjustments for smaller screens */
+}
+@media screen and (max-width: 768px) {
+    .img-box {
+        width: 90%; /* Adjust width for smaller screens */
+        height: 40%; /* Adjust height for smaller screens */
+    }
 }
