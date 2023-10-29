@@ -150,21 +150,36 @@ a:last-child img {
 }
 .card4:hover .card-inner {
     transform: rotateY(180deg);
+}.img-box {
+    /* Adjust dimensions or any other properties causing issues on smaller screens */
+    /* Example adjustments */
+    width: 80%; /* Adjust width */
+    height: 60%; 
+    align-items: center;/* Adjust height */
+    border-radius: 15px;
+    
+background: white;
 }
-/* Your existing CSS */
+.front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Add your existing CSS */
 
 /* Add the media query for responsiveness */
-.img-box{
-    border-radius: 15px;
-    left: 50px;
-    height: 418px;
-    width: 252px;
-    position: relative;
-    background: white;
-    top: 50px;
-}
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
         align-items: center;
     }
+
+    .card1, .card2, .card3, .card4 {
+        width: 80%; /* Adjust width according to your design */
+        margin: 20px auto; /* Adjust margin as needed */
+    }
+
+    
+
+    /* Other adjustments for smaller screens */
+}
