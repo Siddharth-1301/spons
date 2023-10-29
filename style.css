@@ -154,16 +154,12 @@ a:last-child img {
 /* Your existing CSS */
 
 /* Add the media query for responsiveness */
-@media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card1, .card2, .card3, .card4 {
-        width: 80%; /* Adjust width according to your design */
-        margin: 20px auto; /* Adjust margin as needed */
-    }
-
-    /* Adjust other styles as needed for smaller screens */
+.img-box{
+    border-radius: 15px;
+    left: 50px;
+    height: 418px;
+    width: 252px;
+    position: relative;
+    background: white;
+    top: 50px;
 }
